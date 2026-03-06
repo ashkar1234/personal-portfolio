@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sajeena Banu — Full Stack Developer Portfolio</title>
+<meta name="description" content="Sajeena Banu - Full Stack Python Developer & UI/UX Designer. View my projects, skills, and get in touch.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Ambient Background -->
+<div class="ambient-bg"><div class="orb"></div><div class="orb"></div><div class="orb"></div></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-links">
+      <a href="#home" onclick="closeMenu()"><span class="mm-num">01</span><span class="mm-text">Home</span><i class="fas fa-arrow-right mm-arrow"></i></a>
+      <a href="#about" onclick="closeMenu()"><span class="mm-num">02</span><span class="mm-text">About</span><i class="fas fa-arrow-right mm-arrow"></i></a>
+      <a href="#skills" onclick="closeMenu()"><span class="mm-num">03</span><span class="mm-text">Skills</span><i class="fas fa-arrow-right mm-arrow"></i></a>
+      <a href="#projects" onclick="closeMenu()"><span class="mm-num">04</span><span class="mm-text">Projects</span><i class="fas fa-arrow-right mm-arrow"></i></a>
+      <a href="#contact" onclick="closeMenu()"><span class="mm-num">05</span><span class="mm-text">Contact</span><i class="fas fa-arrow-right mm-arrow"></i></a>
+    </div>
+    <div class="mobile-menu-footer">
+      <div class="mm-socials">
+        <a href="https://www.linkedin.com/in/sajeenabanu" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/sajeenabanu" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:sajeenabanu2004@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://instagram.com/sajeenabanu" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="mm-tagline">Full Stack Developer & Designer</p>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">Portfolio</a>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> Open to Opportunities</div>
+      <h1>Hi, I'm <span class="gradient-text">Sajeena</span><br>Banu</h1>
+      <p class="hero-subtitle">Full Stack Developer & UI/UX Designer</p>
+      <p class="hero-desc">Motivated CS graduate with hands-on experience in software development and full stack Python development. Passionate about building scalable applications and intuitive digital experiences.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+        <a href="#projects" class="btn-outline"><i class="fas fa-code"></i> View Projects</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/sajeenabanu" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/sajeenabanu" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:sajeenabanu2004@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919500866878" title="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-card"><div class="stat-number">8.6</div><div class="stat-label">CGPA / 10</div></div>
+      <div class="stat-card"><div class="stat-number">5+</div><div class="stat-label">Projects</div></div>
+      <div class="stat-card"><div class="stat-number">3+</div><div class="stat-label">Certificates</div></div>
+      <div class="stat-card"><div class="stat-number">'25</div><div class="stat-label">Graduate</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <div class="section-tag"><i class="fas fa-user"></i> About Me</div>
+    <h2>Know Me <span class="gradient-text">Better</span></h2>
+    <p class="section-desc">A passionate developer on a mission to create meaningful digital experiences.</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <h3>Computer Science & Business Systems Graduate</h3>
+      <p>I'm Sajeena Banu, a B.Tech CSBS graduate from E.G.S. Pillay Engineering College, Nagapattinam. I'm passionate about building clean, functional, and user-friendly digital solutions.</p>
+      <p>With experience in full stack Python development, UI/UX design, and database management, I bring a holistic approach to software development. I've also completed Python workshops at IIT Madras Research Park and hold an Honours Diploma in Computer Application from Bharathidasan University.</p>
+      <p>I served as Student Representative and was recognized with a Leadership Award for organizing a 500+ attendee symposium. I speak Tamil, English, and Hindi.</p>
+      <a href="./Sajeena Resume.pdf" target="_blank" class="btn-primary" style="margin-top: 1.5rem;"><i class="fas fa-file-alt"></i> View Resume</a>
+    </div>
+    <div class="about-highlights reveal">
+      <div class="highlight-card"><span class="icon">🎓</span><h4>B.Tech CSBS</h4><p>E.G.S. Pillay Engineering College, Class of 2025</p></div>
+      <div class="highlight-card"><span class="icon">💻</span><h4>Full Stack Dev</h4><p>Python, HTML, CSS, JavaScript, MySQL, Flask</p></div>
+      <div class="highlight-card"><span class="icon">🎨</span><h4>UI/UX Designer</h4><p>Figma, Wireframing, Prototyping, Design Thinking</p></div>
+      <div class="highlight-card"><span class="icon">🏆</span><h4>Leadership</h4><p>Event Coordinator, Student Representative</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <div class="section-tag"><i class="fas fa-star"></i> My Skills</div>
+    <h2>Technical <span class="gradient-text">Expertise</span></h2>
+    <p class="section-desc">Technologies and tools I work with to bring ideas to life.</p>
+  </div>
+  <div class="skills-categories">
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-code"></i></div><div class="skill-cat-title">Languages</div></div>
+      <div class="skill-tags"><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">JavaScript</span></div>
+    </div>
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-palette"></i></div><div class="skill-cat-title">Frontend</div></div>
+      <div class="skill-tags"><span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">Tailwind CSS</span></div>
+    </div>
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-pen-nib"></i></div><div class="skill-cat-title">Design</div></div>
+      <div class="skill-tags"><span class="skill-tag">Figma</span><span class="skill-tag">UI/UX Design</span><span class="skill-tag">Wireframing</span></div>
+    </div>
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-server"></i></div><div class="skill-cat-title">Backend & Database</div></div>
+      <div class="skill-tags"><span class="skill-tag">Flask</span><span class="skill-tag">MySQL</span><span class="skill-tag">Database Mgmt</span></div>
+    </div>
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-brain"></i></div><div class="skill-cat-title">Concepts</div></div>
+      <div class="skill-tags"><span class="skill-tag">OOP</span><span class="skill-tag">DSA</span><span class="skill-tag">Design Thinking</span></div>
+    </div>
+    <div class="skill-category-card reveal">
+      <div class="skill-cat-header"><div class="skill-cat-icon"><i class="fas fa-tools"></i></div><div class="skill-cat-title">Tools & Others</div></div>
+      <div class="skill-tags"><span class="skill-tag">Git & GitHub</span><span class="skill-tag">VS Code</span><span class="skill-tag">PyCharm</span><span class="skill-tag">MS Office</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <div class="section-tag"><i class="fas fa-rocket"></i> My Projects</div>
+    <h2>Featured <span class="gradient-text">Work</span></h2>
+    <p class="section-desc">A collection of projects I've built and designed.</p>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-top"><span class="project-emoji">🏫</span><span class="project-year">2025</span></div>
+      <div class="project-title">Institute Website Development</div>
+      <p class="project-desc">Designed and developed a static institute website with structured pages including Home, About, Courses, and Contact. Crafted a clean layout with user-friendly navigation.</p>
+      <div class="project-tech"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span></div>
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-top"><span class="project-emoji">🏢</span><span class="project-year">2025–26</span></div>
+      <div class="project-title">Company Responsive Website</div>
+      <p class="project-desc">Developed a fully responsive company website using Tailwind CSS for a modern UI. Optimized layouts for mobile, tablet, and desktop with reusable design components.</p>
+      <div class="project-tech"><span class="tech-tag">HTML</span><span class="tech-tag">Tailwind CSS</span></div>
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-top"><span class="project-emoji">🚀</span><span class="project-year">2025–26</span></div>
+      <div class="project-title">Interactive 3D Holographic Learning Platform</div>
+      <p class="project-desc">Designed an immersive learning platform integrating voice and gesture recognition. Proposed AI-driven virtual assistant with full system architecture and workflow design.</p>
+      <div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">AI</span><span class="tech-tag">3D Visualization</span></div>
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-top"><span class="project-emoji">♿</span><span class="project-year">2024</span></div>
+      <div class="project-title">Design Thinking for Independent Life</div>
+      <p class="project-desc">Developed an assistive solution for individuals with disabilities using the full design thinking methodology — from user research through prototyping and testing.</p>
+      <div class="project-tech"><span class="tech-tag">Figma</span><span class="tech-tag">UI/UX</span><span class="tech-tag">Design Thinking</span></div>
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-top"><span class="project-emoji">🍽</span><span class="project-year">2024</span></div>
+      <div class="project-title">Restaurant Menu & App UI/UX Design</div>
+      <p class="project-desc">Designed a user-friendly restaurant menu and mobile app interface with wireframes and interactive prototype demonstrating browsing and ordering features.</p>
+      <div class="project-tech"><span class="tech-tag">Figma</span><span class="tech-tag">Wireframing</span><span class="tech-tag">UI/UX</span></div>
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <div class="section-tag"><i class="fas fa-envelope"></i> Get in Touch</div>
+    <h2>Let's <span class="gradient-text">Connect</span></h2>
+    <p class="section-desc">Open to opportunities and collaborations. Feel free to reach out!</p>
+  </div>
+  <div class="contact-wrapper reveal">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <h3>Let's work <span class="gradient-text">together</span></h3>
+        <p>I'm always excited to take on new challenges and work on interesting projects. Whether you have a question or just want to say hello, I'd love to hear from you!</p>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/sajeenabanu" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/sajeenabanu" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/sajeenabanu" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/sajeenabanu" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="contact-items">
+        <a href="tel:+919500866878" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-phone"></i></div>
+          <div><div class="ci-label">Phone</div><div class="ci-value">+91 950086xxxx</div></div>
+        </a>
+        <a href="mailto:sajeenabanu2004@gmail.com" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div><div class="ci-label">Email</div><div class="ci-value">sajeenabanu2004@gmail.com</div></div>
+        </a>
+        <a href="https://www.linkedin.com/in/sajeenabanu" target="_blank" class="contact-item">
+          <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div><div class="ci-label">LinkedIn</div><div class="ci-value">linkedin.com/in/sajeenabanu</div></div>
+        </a>
+        <div class="contact-item" style="cursor:default;">
+          <div class="ci-icon"><i class="fas fa-language"></i></div>
+          <div><div class="ci-label">Languages</div><div class="ci-value">Tamil · English · Hindi</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2025 Sajeena Banu · B.Tech CSBS</span>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/sajeenabanu" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/sajeenabanu" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:sajeenabanu2004@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
